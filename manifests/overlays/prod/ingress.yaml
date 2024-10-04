@@ -6,7 +6,7 @@ spec:
   ingressClassName: ingress-internal
   rules:
   #- host: cloud-sample-prod.cepg-aa.kubepia.net
-  - host: "82022583-prod.ce-aa.kubepia.net"
+  - host: "sampleapp1-82022583.cepg-aa.kubepia.net"
     http:
       paths:
       - path: /
