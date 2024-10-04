@@ -15,4 +15,11 @@ public class GetUserId {
     public String getUserById(@RequestParam(value = "id", required = true) String id) {
         return "사번: " + id;
     }
+
+    @GetMapping("/userid")
+    public String getUserId() {
+        // public String getUserById(@RequestParam(value = "id", required = true) String
+        // id) {
+        return "사번: 82022583";
+    }
 }
