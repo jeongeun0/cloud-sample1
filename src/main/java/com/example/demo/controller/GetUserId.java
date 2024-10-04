@@ -11,7 +11,6 @@ public class GetUserId {
     // private static final String userId = "82022999";
 
     @GetMapping("/user")
-    // public String getUser() {
     public String getUserById(@RequestParam(value = "id", required = true) String id) {
         return "사번: " + id;
     }
