@@ -15,6 +15,4 @@ namespace: "82022583"
   #newTag: "202408120727"
 images:
 - name: cepgstapacr.azurecr.io/82022583
-  newTag: "202410040001"
-#- name: cepgstapacr.azurecr.io/cloud-sample
-  #newTag: "202410040446"
+  newTag: "202410060740"
